@@ -10,9 +10,9 @@ class FactoryTuner
 public:
 	static TunerInterface* create(std::string aName)
 	{
-		if (aName == "1")
+		if (aName == "One")
 			return (new TunerWrapper1(aName));
-		if (aName == "2")
+		if (aName == "Two")
 			return (new TunerWrapper2(aName));
 		else
 			return nullptr;

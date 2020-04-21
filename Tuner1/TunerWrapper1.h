@@ -8,7 +8,7 @@ class TunerWrapper1:public TunerInterface
 public:
 	TunerWrapper1(std::string);
 
-	void setFreq(int) override;
+	void setFreq(void) override;
 
 	Tuner1 objTuner1;
 };

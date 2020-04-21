@@ -6,7 +6,7 @@ TunerWrapper2::TunerWrapper2(std::string aName)
 	objTuner2.setTunerName(aName);
 }
 
-void TunerWrapper2::setFreq(int)
+void TunerWrapper2::setFreq()
 {
 	objTuner2.showName();
 }

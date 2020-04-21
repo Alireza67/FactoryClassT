@@ -1,5 +1,6 @@
 #pragma once
 class TunerInterface
 {
-	virtual void setFreq(int);
+public:
+	virtual void setFreq(void) =0;
 };

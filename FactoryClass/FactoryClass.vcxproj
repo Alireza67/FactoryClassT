@@ -164,6 +164,14 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tuner1\Tuner1.vcxproj">
+      <Project>{de75342b-4ccd-4c20-b70e-a69d3648c22e}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Tuner2\Tuner2.vcxproj">
+      <Project>{16114034-6d5e-4c06-ab34-fefe62fb262c}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

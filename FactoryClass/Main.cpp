@@ -3,6 +3,7 @@
 
 int main()
 {
-	TunerInterface* myTuner = FactoryTuner::create("1");
+	TunerInterface* myTuner = FactoryTuner::create("Two");
+	myTuner->setFreq();
 	return 0;
 }
